@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+  Background-color: black;
+}
+
+h1{
+  Color:lightgreen;
+
+}
+h2{
+  color:lightgreen;
+}
+p{
+  font-family: Courier New
+}
+a:hover{
+background-color:blueviolet ;  
+color:ghostwhite;
+}
+h1{
+  padding:color black;
+ 
+  margin:100px;
+}
+@keyframes happy{
+  0%{
+    transform: scale(5) ;
+  }
+  50%{
+     transform: scale(5) ;
+  }
+  100%{
+    transform: scale(5) ;
+  }
+  h1:hover{
+    aniamtion:happy;
+  aniamtion-duration:2s;
+  }
